@@ -8,7 +8,7 @@ export default async function PostPage({ params }) {
   const [flower] = flowers.rows;
 
   return (
-    <div>
+    <div className="post-container">
       <h2>Flower {flower.id}</h2>
       <h3>{flower.title}</h3>
       <p>{flower.content}</p>

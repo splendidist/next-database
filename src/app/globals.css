@@ -1,0 +1,74 @@
+.h1 {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  margin: 0px 10px;
+  padding: 10px;
+  background-color: pink;
+}
+
+.post-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.post-links div {
+  margin: 0px 50px;
+  padding: 10px;
+  background-color: pink;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form-container input,
+.form-container label,
+.form-container textarea,
+.form-container button {
+  margin: 10px 0px;
+}
+
+.form-container button {
+  background-color: pink;
+  border: none;
+  padding: 10px;
+}
+
+.form-container button:hover {
+  cursor: pointer;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-container input {
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+  width: 20vw;
+  height: 20vh;
+  padding: 5px;
+}

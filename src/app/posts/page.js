@@ -7,7 +7,7 @@ export default async function Posts() {
   `;
 
   return (
-    <div>
+    <div className="post-links">
       {flowers.rows.map((flower) => (
         <div key={flower.id}>
           <Link href={`/posts/${flower.id}`} key={flower.id}>
